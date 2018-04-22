@@ -11,7 +11,14 @@ namespace Demo_Sonar
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+        }
 
+        protected void Unnamed_Click(object sender, EventArgs e)
+        {
+            if (txtUsuario.Text.Equals("lbolanos") && txtClave.Text.Equals("12345"))
+            {
+                Response.Redirect("default.aspx");
+            }
         }
     }
 }
