@@ -15,8 +15,9 @@ namespace Demo_Sonar
 
         protected void Unnamed_Click(object sender, EventArgs e)
         {
-            if (txtUsuario.Text.Equals("lbolanos") && txtClave.Text.Equals("12345"))
+            if (txtUsuario.Text.Equals("lbolanos") && txtClave.Text.Equals("123456"))
             {
+                Session.Clear();
                 Response.Redirect("default.aspx");
             }
         }
