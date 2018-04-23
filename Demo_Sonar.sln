@@ -5,6 +5,12 @@ VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo_Sonar", "Demo_Sonar\Demo_Sonar.csproj", "{89E75AC0-30E0-49DA-9D87-FBBBFF83A38C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SonarQube", "SonarQube", "{88B368B6-2A3C-4ACD-9D41-27BA53AB68DC}"
+	ProjectSection(SolutionItems) = preProject
+		SonarQube\DemoSonarCSharp.ruleset = SonarQube\DemoSonarCSharp.ruleset
+		SonarQube\SolutionBinding.sqconfig = SonarQube\SolutionBinding.sqconfig
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
